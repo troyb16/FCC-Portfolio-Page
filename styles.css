@@ -12,6 +12,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: 5px solid #D4BC8C;
 }
 
 nav ul {
@@ -72,6 +73,41 @@ h2 {
     text-align: center;
     font-size: 2rem;
     letter-spacing: 0.3rem;
-    margin-top: 0;
-    padding: 1.5rem 0.8rem;
+    margin: 0;
+    padding: 3rem 0.8rem 2.5rem;
 }
+
+#cards-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #483C32;
+    font-size: 1.3rem;
+    width: 22rem;
+    height: 20rem;
+    margin-bottom: 2.2rem;
+    color: #D4BC8C;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.41);
+}
+
+.card p {
+    margin-top: 0.8rem;
+}
+
+.card-image {
+    background-color: #283618;
+    height: 16rem;
+    background-size: cover;
+    width: 22rem;
+}
+
+.card:nth-child(4) {
+    margin-bottom: 5rem;
+}
+
