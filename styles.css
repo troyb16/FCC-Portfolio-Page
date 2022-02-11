@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto Mono', Tahoma;
+    font-family: 'Fredericka the Great', Tahoma;
     margin: 0;
 }
 
@@ -27,12 +27,15 @@ nav a {
     color: #D4BC8C;
     text-decoration: none;
     font-size: 1.3rem;
-    font-family: 'Fredericka the Great';
 }
+
+/* nav a:hover {
+    background-color: #D4BC8C;
+    color: #483C32;
+} */
 
 #welcome-section {
     background-color: #283618;
-    color: white;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -46,7 +49,6 @@ nav a {
 }
 
 h1 {
-    font-family: 'Fredericka the Great';
     font-size: 3.2rem;
     margin-bottom: 0;
     letter-spacing: 0.3rem;
@@ -59,4 +61,17 @@ h1 {
     font-size: 1.6rem;
     margin-top: 0.9rem;
     color: #A6531C;
+}
+
+#projects {
+    background-color: #5C633A;
+    color: #D4BC8C;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin-top: 0;
+    padding: 1.5rem 0.8rem;
 }
