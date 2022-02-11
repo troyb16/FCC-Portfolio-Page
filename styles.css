@@ -24,7 +24,7 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: #D4BC8C;
     text-decoration: none;
     font-size: 1.3rem;
     font-family: 'Fredericka the Great';
@@ -47,13 +47,16 @@ nav a {
 
 h1 {
     font-family: 'Fredericka the Great';
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     margin-bottom: 0;
     letter-spacing: 0.3rem;
     line-height: 1.3;
+    color: #D4BC8C;
 }
 
 #welcome-section p {
     font-family: 'Homemade Apple';
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    margin-top: 0.9rem;
+    color: #A6531C;
 }
