@@ -29,3 +29,31 @@ nav a {
     font-size: 1.3rem;
     font-family: 'Fredericka the Great';
 }
+
+#welcome-section {
+    background-color: #283618;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#welcome-section h1, p {
+    padding: 0 1rem;
+}
+
+h1 {
+    font-family: 'Fredericka the Great';
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    letter-spacing: 0.3rem;
+    line-height: 1.3;
+}
+
+#welcome-section p {
+    font-family: 'Homemade Apple';
+    font-size: 1.5rem;
+}
