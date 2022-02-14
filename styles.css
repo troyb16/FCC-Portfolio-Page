@@ -12,6 +12,8 @@ body {
 #navbar {
     background-color: #483C32;
     border-bottom: 5px solid #D4BC8C;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
@@ -91,7 +93,7 @@ code {
     justify-content: center;
 }
 
-.card {
+.project-tile {
     background-color: #483C32;
     font-size: 1.3rem;
     width: 90%;
@@ -104,12 +106,12 @@ code {
     box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.41);
 }
 
-.card:hover code {
+.project-tile:hover code {
     color: #A6531C;
     transition: 0.5s;
 }
 
-.card p {
+.project-tile p {
     margin: 0.5rem auto 1rem;
 }
 
@@ -120,7 +122,7 @@ code {
     width: 100%;
 }
 
-.card:nth-child(4) {
+.project-tile:nth-child(4) {
     margin-bottom: 5rem;
 }
 
@@ -215,7 +217,7 @@ footer a {
         font-size: 1.4rem;
     }
 
-    .card {
+    .project-tile {
         width: 45%;
         margin: 2%;
     }
