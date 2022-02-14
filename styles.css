@@ -14,6 +14,7 @@ body {
     border-bottom: 5px solid #D4BC8C;
     position: fixed;
     width: 100%;
+    height: auto;
 }
 
 nav ul {
@@ -66,7 +67,7 @@ h1 {
 #welcome-section p {
     font-family: 'Homemade Apple';
     font-size: 1.6rem;
-    margin: 0.9rem auto 6rem;
+    margin: 0.9rem auto 1rem;
     color: #A6531C;
 }
 
@@ -221,6 +222,10 @@ footer a {
         width: 45%;
         margin: 2%;
     }
+
+    h2 {
+        font-size: 2.4rem;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -234,5 +239,9 @@ footer a {
 
     nav a {
         font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2.6rem;
     }
 }
